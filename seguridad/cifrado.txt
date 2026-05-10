@@ -1,0 +1,1 @@
+Los datos sensibles serán cifrados mediante HTTPS y algoritmos hash.

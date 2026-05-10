@@ -1,0 +1,1 @@
+El sistema utilizará autenticación mediante JWT y contraseñas cifradas.
