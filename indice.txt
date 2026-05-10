@@ -4,3 +4,4 @@
 4. Monitorización
 5. Prevención de ataques SQL
 6. Copias de seguridad
+7. Hardening y protección avanzada
