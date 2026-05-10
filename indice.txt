@@ -2,3 +2,5 @@
 2. Control de accesos
 3. Protección de datos
 4. Monitorización
+5. Prevención de ataques SQL
+6. Copias de seguridad
