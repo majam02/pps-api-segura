@@ -5,3 +5,4 @@
 5. Prevención de ataques SQL
 6. Copias de seguridad
 7. Seguridad en APIs REST
+8. Hardening y protección avanzada
