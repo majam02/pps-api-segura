@@ -1,0 +1,7 @@
+Posibles vulnerabilidades:
+- Contraseñas débiles
+- Falta de validación de entradas
+
+Recomendaciones:
+- Implementar MFA
+- Sanitizar formularios
