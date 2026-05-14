@@ -1,0 +1,27 @@
+name: DAST Scan
+
+on:
+  push:
+
+jobs:
+  zap_scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar OWASP ZAP
+        run: |
+          sudo apt-get update
+          sudo apt-get install zaproxy -y
+
+      - name: Ejecutar escaneo con OWASP ZAP
+        run: |
+          zaproxy -cmd -autorun zap_scan.yaml
+
+      - name: Guardar el reporte como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZAP-Report
+          path: zap_report.html
